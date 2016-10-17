@@ -1,1 +1,1 @@
-# cloud-viewer
+# The web based point clouds viewer
