@@ -17,4 +17,10 @@ public class GreetingController {
         return "greeting";
     }
 
+    @RequestMapping("/my-handling-form-page")
+    public String handleForm() {
+        System.out.println("hello, I received data from form!");
+        return "okpage";
+    }
+
 }

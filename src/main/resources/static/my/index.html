@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление облака точек</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <div id='center-line'>
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                    <label for="comment">Comment:</label>
+                    <input type="text" id="comment" name="comment">
+                </div>
+                <div>
+                    <label for="file-input">Select files:</label>
+                    <input id="file-input" type="file" multiple name="selected_files"/>
+                </div>
+                <div>
+                    <button id="btn-show" type="submit">Просмотр</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
